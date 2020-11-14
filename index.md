@@ -5,7 +5,7 @@
   agent-id="cb7e1eac-3a75-4b00-b681-45e0e6c89e82"
   language-code="es"
 ></df-messenger>
-<div>Teachable Machine Image Model</div>
+<div>Identificacion de mascarilla en al WEB</div>
 <button type="button" onclick="init()">Start</button>
 <div id="webcam-container"></div>
 <div id="label-container"></div>
@@ -16,7 +16,7 @@
     // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
 
     // the link to your model provided by Teachable Machine export panel
-    const URL = "https://teachablemachine.withgoogle.com/models/K8Kf0s9G-/";
+    const URL = "https://teachablemachine.withgoogle.com/models/eN1PaL05L/";
 
     let model, webcam, labelContainer, maxPredictions;
 
@@ -64,6 +64,7 @@
         }
     }
 </script>
+
 
 
 
